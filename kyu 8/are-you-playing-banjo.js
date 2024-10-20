@@ -9,7 +9,7 @@
 // name + " does not play banjo"
 // Names given are always valid strings.
 
-// // SOLUTION:
+// SOLUTION:
 
 function areYouPlayingBanjo(name) {
   if (name[0] === "r" || name[0] === "R") {
