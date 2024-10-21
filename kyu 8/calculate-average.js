@@ -7,13 +7,11 @@
 // SOLUTION:
 
 function findAverage(array) {
-  function findAverage(array) {
-    if (array.length === 0) {
-      return 0;
-    }
-    let sum = array.reduce((x, n) => x + n, 0);
-    return sum / array.length;
+  if (array.length === 0) {
+    return 0;
   }
+  let sum = array.reduce((x, n) => x + n, 0);
+  return sum / array.length;
 }
 
 console.log(findAverage([1, 2, 3]));
