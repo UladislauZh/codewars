@@ -5,7 +5,7 @@
 // SOLUTION:
 
 function removeExclamationMarks(s) {
-  return s.replace("!", "");
+  return s.replaceAll("!", "");
 }
 
 console.log(removeExclamationMarks("Hello World!"));
