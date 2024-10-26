@@ -10,7 +10,7 @@
 // SOLUTION:
 
 function cockroachSpeed(s) {
-  return Math.round(s * 27.7);
+  return Math.floor((s * 1000) / 36);
 }
 
 console.log(cockroachSpeed(1.08));
