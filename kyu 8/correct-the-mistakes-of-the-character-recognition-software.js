@@ -14,12 +14,17 @@
 // SOLUTION:
 
 function correct(string) {
-  if (string.includes(5) === true) {
-    return string.replaceAll("5", "S");
-  } else if (string.includes(0) === true) {
-    return string.replaceAll("0", "O");
-  } else if (string.includes(1) === true);
-  {
-    return string.replaceAll("1", "I");
-  }
+  return string.replaceAll("0", "O").replaceAll("1", "I").replaceAll("5", "S");
 }
+
+console.log(correct("51NGAP0RE"));
+
+// function correct(inputString) {
+//   const corrections = {
+//     "5": "S",
+//     "0": "O",
+//     "1": "I",
+//   };
+
+//   return inputString.replace(/[501]/g, (char) => corrections[char]);
+// }
